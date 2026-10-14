@@ -1,0 +1,38 @@
+{
+  "project": "QUASAR",
+  "slug_source": "GitHub search API exact-name top match (candidates quoted)",
+  "picked_slug": "quasarframework/quasar",
+  "search_url": "https://api.github.com/search/repositories?q=quasar&per_page=5",
+  "search_status": 200,
+  "candidates": [
+    {
+      "full_name": "quasarframework/quasar",
+      "stars": 27207,
+      "license": "MIT"
+    },
+    {
+      "full_name": "quasar/Quasar",
+      "stars": 9902,
+      "license": "MIT"
+    },
+    {
+      "full_name": "puniverse/quasar",
+      "stars": 4551,
+      "license": "NOASSERTION"
+    },
+    {
+      "full_name": "pratik227/quasar-admin",
+      "stars": 862,
+      "license": "MIT"
+    },
+    {
+      "full_name": "quasarframework/quasar-awesome",
+      "stars": 1871,
+      "license": "MIT"
+    }
+  ],
+  "commit_url": "https://api.github.com/repos/quasarframework/quasar/commits/dev",
+  "commit_status": 200,
+  "default_branch": null,
+  "commit_response_excerpt": "{\"sha\": \"bee1ec55c5f995bac6caa2312a635be84b079e79\", \"commit\": {\"message\": \"fix(Screen): do not crash the app when the Screen Orientation API is missing #18\", \"committer_date\": \"2026-10-05T16:23:53Z\"}}"
+}
