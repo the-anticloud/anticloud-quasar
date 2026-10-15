@@ -1,0 +1,663 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:6f52d727-0d8e-56b5-8aa9-086e06be3346",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T12:50:10Z",
+  "component": {
+   "type": "application",
+   "name": "QUASAR",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/QUASAR@83b357604d34",
+   "purl": "pkg:generic/anticloud/QUASAR@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "MIT"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "<contaminated-url-removed>"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "@quasar/extras",
+   "version": "^2.0.0",
+   "purl": "pkg:npm/@quasar/extras@^2.0.0",
+   "bom-ref": "npm/@quasar/extras@^2.0.0"
+  },
+  {
+   "type": "library",
+   "name": "@shikijs/langs",
+   "version": "^4.4.2",
+   "purl": "pkg:npm/@shikijs/langs@^4.4.2",
+   "bom-ref": "npm/@shikijs/langs@^4.4.2"
+  },
+  {
+   "type": "library",
+   "name": "@shikijs/transformers",
+   "version": "^4.4.2",
+   "purl": "pkg:npm/@shikijs/transformers@^4.4.2",
+   "bom-ref": "npm/@shikijs/transformers@^4.4.2"
+  },
+  {
+   "type": "library",
+   "name": "quasar",
+   "version": "^2.34.0",
+   "purl": "pkg:npm/quasar@^2.34.0",
+   "bom-ref": "npm/quasar@^2.34.0"
+  },
+  {
+   "type": "library",
+   "name": "shiki",
+   "version": "^4.4.2",
+   "purl": "pkg:npm/shiki@^4.4.2",
+   "bom-ref": "npm/shiki@^4.4.2"
+  },
+  {
+   "type": "library",
+   "name": "vue",
+   "version": "^3.5.43",
+   "purl": "pkg:npm/vue@^3.5.43",
+   "bom-ref": "npm/vue@^3.5.43"
+  },
+  {
+   "type": "library",
+   "name": "vue-router",
+   "version": "^5.3.1",
+   "purl": "pkg:npm/vue-router@^5.3.1",
+   "bom-ref": "npm/vue-router@^5.3.1"
+  },
+  {
+   "type": "library",
+   "name": "@quasar/app-vite",
+   "version": "^3.10.1",
+   "purl": "pkg:npm/@quasar/app-vite@^3.10.1",
+   "bom-ref": "npm/@quasar/app-vite@^3.10.1"
+  },
+  {
+   "type": "library",
+   "name": "@rolldown/pluginutils",
+   "version": "^1.0.1",
+   "purl": "pkg:npm/@rolldown/pluginutils@^1.0.1",
+   "bom-ref": "npm/@rolldown/pluginutils@^1.0.1"
+  },
+  {
+   "type": "library",
+   "name": "@vitejs/plugin-vue",
+   "version": "^6.0.9",
+   "purl": "pkg:npm/@vitejs/plugin-vue@^6.0.9",
+   "bom-ref": "npm/@vitejs/plugin-vue@^6.0.9"
+  },
+  {
+   "type": "library",
+   "name": "fs-extra",
+   "version": "^11.4.0",
+   "purl": "pkg:npm/fs-extra@^11.4.0",
+   "bom-ref": "npm/fs-extra@^11.4.0"
+  },
+  {
+   "type": "library",
+   "name": "gray-matter",
+   "version": "^4.0.3",
+   "purl": "pkg:npm/gray-matter@^4.0.3",
+   "bom-ref": "npm/gray-matter@^4.0.3"
+  },
+  {
+   "type": "library",
+   "name": "markdown-it",
+   "version": "^15.0.2",
+   "purl": "pkg:npm/markdown-it@^15.0.2",
+   "bom-ref": "npm/markdown-it@^15.0.2"
+  },
+  {
+   "type": "library",
+   "name": "playwright",
+   "version": "^1.63.0",
+   "purl": "pkg:npm/playwright@^1.63.0",
+   "bom-ref": "npm/playwright@^1.63.0"
+  },
+  {
+   "type": "library",
+   "name": "tinyglobby",
+   "version": "^0.2.17",
+   "purl": "pkg:npm/tinyglobby@^0.2.17",
+   "bom-ref": "npm/tinyglobby@^0.2.17"
+  },
+  {
+   "type": "library",
+   "name": "tokenx",
+   "version": "^2.1.0",
+   "purl": "pkg:npm/tokenx@^2.1.0",
+   "bom-ref": "npm/tokenx@^2.1.0"
+  },
+  {
+   "type": "library",
+   "name": "toml",
+   "version": "^5.0.0",
+   "purl": "pkg:npm/toml@^5.0.0",
+   "bom-ref": "npm/toml@^5.0.0"
+  },
+  {
+   "type": "library",
+   "name": "vitest",
+   "version": "^5.0.1",
+   "purl": "pkg:npm/vitest@^5.0.1",
+   "bom-ref": "npm/vitest@^5.0.1"
+  },
+  {
+   "type": "library",
+   "name": "workbox-build",
+   "version": "^7.4.1",
+   "purl": "pkg:npm/workbox-build@^7.4.1",
+   "bom-ref": "npm/workbox-build@^7.4.1"
+  },
+  {
+   "type": "library",
+   "name": "@hono/node-server",
+   "version": "^2.1.0",
+   "purl": "pkg:npm/@hono/node-server@^2.1.0",
+   "bom-ref": "npm/@hono/node-server@^2.1.0"
+  },
+  {
+   "type": "library",
+   "name": "hono",
+   "version": "^4.13.0",
+   "purl": "pkg:npm/hono@^4.13.0",
+   "bom-ref": "npm/hono@^4.13.0"
+  },
+  {
+   "type": "library",
+   "name": "workbox-cacheable-response",
+   "version": "^7.0.0",
+   "purl": "pkg:npm/workbox-cacheable-response@^7.0.0",
+   "bom-ref": "npm/workbox-cacheable-response@^7.0.0"
+  },
+  {
+   "type": "library",
+   "name": "workbox-core",
+   "version": "^7.0.0",
+   "purl": "pkg:npm/workbox-core@^7.0.0",
+   "bom-ref": "npm/workbox-core@^7.0.0"
+  },
+  {
+   "type": "library",
+   "name": "workbox-expiration",
+   "version": "^7.0.0",
+   "purl": "pkg:npm/workbox-expiration@^7.0.0",
+   "bom-ref": "npm/workbox-expiration@^7.0.0"
+  },
+  {
+   "type": "library",
+   "name": "workbox-precaching",
+   "version": "^7.0.0",
+   "purl": "pkg:npm/workbox-precaching@^7.0.0",
+   "bom-ref": "npm/workbox-precaching@^7.0.0"
+  },
+  {
+   "type": "library",
+   "name": "workbox-routing",
+   "version": "^7.0.0",
+   "purl": "pkg:npm/workbox-routing@^7.0.0",
+   "bom-ref": "npm/workbox-routing@^7.0.0"
+  },
+  {
+   "type": "library",
+   "name": "workbox-strategies",
+   "version": "^7.0.0",
+   "purl": "pkg:npm/workbox-strategies@^7.0.0",
+   "bom-ref": "npm/workbox-strategies@^7.0.0"
+  },
+  {
+   "type": "library",
+   "name": "@clack/prompts",
+   "version": "^1.8.1",
+   "purl": "pkg:npm/@clack/prompts@^1.8.1",
+   "bom-ref": "npm/@clack/prompts@^1.8.1"
+  },
+  {
+   "type": "library",
+   "name": "@quasar/art",
+   "version": "workspace:^",
+   "purl": "pkg:npm/@quasar/art@workspace:^",
+   "bom-ref": "npm/@quasar/art@workspace:^"
+  },
+  {
+   "type": "library",
+   "name": "@quasar/update-notifier",
+   "version": "workspace:^",
+   "purl": "pkg:npm/@quasar/update-notifier@workspace:^",
+   "bom-ref": "npm/@quasar/update-notifier@workspace:^"
+  },
+  {
+   "type": "library",
+   "name": "ci-info",
+   "version": "^4.4.0",
+   "purl": "pkg:npm/ci-info@^4.4.0",
+   "bom-ref": "npm/ci-info@^4.4.0"
+  },
+  {
+   "type": "library",
+   "name": "cross-spawn",
+   "version": "^7.0.6",
+   "purl": "pkg:npm/cross-spawn@^7.0.6",
+   "bom-ref": "npm/cross-spawn@^7.0.6"
+  },
+  {
+   "type": "library",
+   "name": "kolorist",
+   "version": "^1.8.0",
+   "purl": "pkg:npm/kolorist@^1.8.0",
+   "bom-ref": "npm/kolorist@^1.8.0"
+  },
+  {
+   "type": "library",
+   "name": "verdaccio",
+   "version": "^6.10.4",
+   "purl": "pkg:npm/verdaccio@^6.10.4",
+   "bom-ref": "npm/verdaccio@^6.10.4"
+  },
+  {
+   "type": "library",
+   "name": "@quasar/ssl-certificate",
+   "version": "workspace:^",
+   "purl": "pkg:npm/@quasar/ssl-certificate@workspace:^",
+   "bom-ref": "npm/@quasar/ssl-certificate@workspace:^"
+  },
+  {
+   "type": "library",
+   "name": "open",
+   "version": "^11.0.4",
+   "purl": "pkg:npm/open@^11.0.4",
+   "bom-ref": "npm/open@^11.0.4"
+  },
+  {
+   "type": "library",
+   "name": "@quasar/render-ssr-error",
+   "version": "workspace:^",
+   "purl": "pkg:npm/@quasar/render-ssr-error@workspace:^",
+   "bom-ref": "npm/@quasar/render-ssr-error@workspace:^"
+  },
+  {
+   "type": "library",
+   "name": "@quasar/vite-plugin",
+   "version": "workspace:^",
+   "purl": "pkg:npm/@quasar/vite-plugin@workspace:^",
+   "bom-ref": "npm/@quasar/vite-plugin@workspace:^"
+  },
+  {
+   "type": "library",
+   "name": "@types/chrome",
+   "version": "^0.3.0",
+   "purl": "pkg:npm/@types/chrome@^0.3.0",
+   "bom-ref": "npm/@types/chrome@^0.3.0"
+  },
+  {
+   "type": "library",
+   "name": "@types/cordova",
+   "version": "^11.0.3",
+   "purl": "pkg:npm/@types/cordova@^11.0.3",
+   "bom-ref": "npm/@types/cordova@^11.0.3"
+  },
+  {
+   "type": "library",
+   "name": "chokidar",
+   "version": "^5.0.0",
+   "purl": "pkg:npm/chokidar@^5.0.0",
+   "bom-ref": "npm/chokidar@^5.0.0"
+  },
+  {
+   "type": "library",
+   "name": "confbox",
+   "version": "^0.3.1",
+   "purl": "pkg:npm/confbox@^0.3.1",
+   "bom-ref": "npm/confbox@^0.3.1"
+  },
+  {
+   "type": "library",
+   "name": "dot-prop",
+   "version": "10.2.0",
+   "purl": "pkg:npm/dot-prop@10.2.0",
+   "bom-ref": "npm/dot-prop@10.2.0"
+  },
+  {
+   "type": "library",
+   "name": "dotenv-expand",
+   "version": "^13.0.0",
+   "purl": "pkg:npm/dotenv-expand@^13.0.0",
+   "bom-ref": "npm/dotenv-expand@^13.0.0"
+  },
+  {
+   "type": "library",
+   "name": "elementtree",
+   "version": "0.1.7",
+   "purl": "pkg:npm/elementtree@0.1.7",
+   "bom-ref": "npm/elementtree@0.1.7"
+  },
+  {
+   "type": "library",
+   "name": "fflate",
+   "version": "^0.8.2",
+   "purl": "pkg:npm/fflate@^0.8.2",
+   "bom-ref": "npm/fflate@^0.8.2"
+  },
+  {
+   "type": "library",
+   "name": "html-minifier-terser",
+   "version": "^7.2.0",
+   "purl": "pkg:npm/html-minifier-terser@^7.2.0",
+   "bom-ref": "npm/html-minifier-terser@^7.2.0"
+  },
+  {
+   "type": "library",
+   "name": "jiti",
+   "version": "^2.7.0",
+   "purl": "pkg:npm/jiti@^2.7.0",
+   "bom-ref": "npm/jiti@^2.7.0"
+  },
+  {
+   "type": "library",
+   "name": "mlly",
+   "version": "^1.8.2",
+   "purl": "pkg:npm/mlly@^1.8.2",
+   "bom-ref": "npm/mlly@^1.8.2"
+  },
+  {
+   "type": "library",
+   "name": "picomatch",
+   "version": "^4.0.7",
+   "purl": "pkg:npm/picomatch@^4.0.7",
+   "bom-ref": "npm/picomatch@^4.0.7"
+  },
+  {
+   "type": "library",
+   "name": "rolldown",
+   "version": "^1.2.9",
+   "purl": "pkg:npm/rolldown@^1.2.9",
+   "bom-ref": "npm/rolldown@^1.2.9"
+  },
+  {
+   "type": "library",
+   "name": "sass-embedded",
+   "version": "^1.104.1",
+   "purl": "pkg:npm/sass-embedded@^1.104.1",
+   "bom-ref": "npm/sass-embedded@^1.104.1"
+  },
+  {
+   "type": "library",
+   "name": "semver",
+   "version": "^7.8.5",
+   "purl": "pkg:npm/semver@^7.8.5",
+   "bom-ref": "npm/semver@^7.8.5"
+  },
+  {
+   "type": "library",
+   "name": "serialize-javascript",
+   "version": "^7.1.1",
+   "purl": "pkg:npm/serialize-javascript@^7.1.1",
+   "bom-ref": "npm/serialize-javascript@^7.1.1"
+  },
+  {
+   "type": "library",
+   "name": "serve-static",
+   "version": "^2.2.1",
+   "purl": "pkg:npm/serve-static@^2.2.1",
+   "bom-ref": "npm/serve-static@^2.2.1"
+  },
+  {
+   "type": "library",
+   "name": "ts-essentials",
+   "version": "^10.2.0",
+   "purl": "pkg:npm/ts-essentials@^10.2.0",
+   "bom-ref": "npm/ts-essentials@^10.2.0"
+  },
+  {
+   "type": "library",
+   "name": "vite",
+   "version": "^8.3.0",
+   "purl": "pkg:npm/vite@^8.3.0",
+   "bom-ref": "npm/vite@^8.3.0"
+  },
+  {
+   "type": "library",
+   "name": "webpack-merge",
+   "version": "^6.0.1",
+   "purl": "pkg:npm/webpack-merge@^6.0.1",
+   "bom-ref": "npm/webpack-merge@^6.0.1"
+  },
+  {
+   "type": "library",
+   "name": "@capacitor/cli",
+   "version": "^8.5.2",
+   "purl": "pkg:npm/@capacitor/cli@^8.5.2",
+   "bom-ref": "npm/@capacitor/cli@^8.5.2"
+  },
+  {
+   "type": "library",
+   "name": "pinia",
+   "version": "^4.0.2",
+   "purl": "pkg:npm/pinia@^4.0.2",
+   "bom-ref": "npm/pinia@^4.0.2"
+  },
+  {
+   "type": "library",
+   "name": "vite-plugin-vue-devtools",
+   "version": "^8.2.1",
+   "purl": "pkg:npm/vite-plugin-vue-devtools@^8.2.1",
+   "bom-ref": "npm/vite-plugin-vue-devtools@^8.2.1"
+  },
+  {
+   "type": "library",
+   "name": "@electron/packager",
+   "version": ">= 19",
+   "purl": "pkg:npm/@electron/packager@>= 19",
+   "bom-ref": "npm/@electron/packager@>= 19"
+  },
+  {
+   "type": "library",
+   "name": "builder-util",
+   "version": ">= 26",
+   "purl": "pkg:npm/builder-util@>= 26",
+   "bom-ref": "npm/builder-util@>= 26"
+  },
+  {
+   "type": "library",
+   "name": "electron-builder",
+   "version": ">= 22",
+   "purl": "pkg:npm/electron-builder@>= 22",
+   "bom-ref": "npm/electron-builder@>= 22"
+  },
+  {
+   "type": "library",
+   "name": "typescript",
+   "version": ">= 5",
+   "purl": "pkg:npm/typescript@>= 5",
+   "bom-ref": "npm/typescript@>= 5"
+  },
+  {
+   "type": "library",
+   "name": "koa",
+   "version": "^3.2.0",
+   "purl": "pkg:npm/koa@^3.2.0",
+   "bom-ref": "npm/koa@^3.2.0"
+  },
+  {
+   "type": "library",
+   "name": "koa-compress",
+   "version": "^5.2.1",
+   "purl": "pkg:npm/koa-compress@^5.2.1",
+   "bom-ref": "npm/koa-compress@^5.2.1"
+  },
+  {
+   "type": "library",
+   "name": "koa-connect",
+   "version": "^2.1.1",
+   "purl": "pkg:npm/koa-connect@^2.1.1",
+   "bom-ref": "npm/koa-connect@^2.1.1"
+  },
+  {
+   "type": "library",
+   "name": "koa-mount",
+   "version": "^4.2.0",
+   "purl": "pkg:npm/koa-mount@^4.2.0",
+   "bom-ref": "npm/koa-mount@^4.2.0"
+  },
+  {
+   "type": "library",
+   "name": "koa-static",
+   "version": "^5.0.0",
+   "purl": "pkg:npm/koa-static@^5.0.0",
+   "bom-ref": "npm/koa-static@^5.0.0"
+  },
+  {
+   "type": "library",
+   "name": "@types/koa",
+   "version": "^3.0.2",
+   "purl": "pkg:npm/@types/koa@^3.0.2",
+   "bom-ref": "npm/@types/koa@^3.0.2"
+  },
+  {
+   "type": "library",
+   "name": "@types/koa-mount",
+   "version": "^4.0.5",
+   "purl": "pkg:npm/@types/koa-mount@^4.0.5",
+   "bom-ref": "npm/@types/koa-mount@^4.0.5"
+  },
+  {
+   "type": "library",
+   "name": "@types/koa-static",
+   "version": "^4.0.4",
+   "purl": "pkg:npm/@types/koa-static@^4.0.4",
+   "bom-ref": "npm/@types/koa-static@^4.0.4"
+  },
+  {
+   "type": "library",
+   "name": "@fastify/compress",
+   "version": "^9.1.1",
+   "purl": "pkg:npm/@fastify/compress@^9.1.1",
+   "bom-ref": "npm/@fastify/compress@^9.1.1"
+  },
+  {
+   "type": "library",
+   "name": "@fastify/static",
+   "version": "^10.1.2",
+   "purl": "pkg:npm/@fastify/static@^10.1.2",
+   "bom-ref": "npm/@fastify/static@^10.1.2"
+  },
+  {
+   "type": "library",
+   "name": "fastify",
+   "version": "^5.8.4",
+   "purl": "pkg:npm/fastify@^5.8.4",
+   "bom-ref": "npm/fastify@^5.8.4"
+  },
+  {
+   "type": "library",
+   "name": "@fastify/middie",
+   "version": "^9.3.1",
+   "purl": "pkg:npm/@fastify/middie@^9.3.1",
+   "bom-ref": "npm/@fastify/middie@^9.3.1"
+  },
+  {
+   "type": "library",
+   "name": "express",
+   "version": "^5.0.0",
+   "purl": "pkg:npm/express@^5.0.0",
+   "bom-ref": "npm/express@^5.0.0"
+  },
+  {
+   "type": "library",
+   "name": "compression",
+   "version": "^1.8.1",
+   "purl": "pkg:npm/compression@^1.8.1",
+   "bom-ref": "npm/compression@^1.8.1"
+  },
+  {
+   "type": "library",
+   "name": "helmet",
+   "version": "^8.1.0",
+   "purl": "pkg:npm/helmet@^8.1.0",
+   "bom-ref": "npm/helmet@^8.1.0"
+  },
+  {
+   "type": "library",
+   "name": "@types/compression",
+   "version": "^1.8.1",
+   "purl": "pkg:npm/@types/compression@^1.8.1",
+   "bom-ref": "npm/@types/compression@^1.8.1"
+  },
+  {
+   "type": "library",
+   "name": "@types/express",
+   "version": "^5.0.6",
+   "purl": "pkg:npm/@types/express@^5.0.6",
+   "bom-ref": "npm/@types/express@^5.0.6"
+  },
+  {
+   "type": "library",
+   "name": "register-service-worker",
+   "version": "^1.7.2",
+   "purl": "pkg:npm/register-service-worker@^1.7.2",
+   "bom-ref": "npm/register-service-worker@^1.7.2"
+  },
+  {
+   "type": "library",
+   "name": "electron",
+   "version": "latest",
+   "purl": "pkg:npm/electron@latest",
+   "bom-ref": "npm/electron@latest"
+  },
+  {
+   "type": "library",
+   "name": "@capacitor/app",
+   "version": "^8.0.0",
+   "purl": "pkg:npm/@capacitor/app@^8.0.0",
+   "bom-ref": "npm/@capacitor/app@^8.0.0"
+  },
+  {
+   "type": "library",
+   "name": "@capacitor/core",
+   "version": "^8.0.0",
+   "purl": "pkg:npm/@capacitor/core@^8.0.0",
+   "bom-ref": "npm/@capacitor/core@^8.0.0"
+  },
+  {
+   "type": "library",
+   "name": "@types/node",
+   "version": "^26.6.2",
+   "purl": "pkg:npm/@types/node@^26.6.2",
+   "bom-ref": "npm/@types/node@^26.6.2"
+  },
+  {
+   "type": "library",
+   "name": "vue-tsc",
+   "version": "^3.3.11",
+   "purl": "pkg:npm/vue-tsc@^3.3.11",
+   "bom-ref": "npm/vue-tsc@^3.3.11"
+  }
+ ],
+ "source": {
+  "git": {
+   "head": null,
+   "url": null,
+   "sha_unverified": true,
+   "note": "contamination removed; resolve via GitHub API before quoting"
+  }
+ }
+}
